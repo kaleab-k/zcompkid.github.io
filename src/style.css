@@ -266,8 +266,8 @@ btn-flat {
 
 #quote-carousel .carousel-indicators .active {
     background: #333333;
-    width: 128px;
-    height: 128px;
+    width: 80px;
+    height: 80px;
     border-radius: 100px;
     border-color: #f33;
     opacity: 1;
@@ -462,7 +462,6 @@ h1.contact-white,
 
 #header_blob h5 {
     font-size: 1.3em;
-    line-height: 0.6em;
 }
 
 #header_blob h1 {
@@ -570,7 +569,7 @@ nav {
 
 @media (max-width: 945px) {
     #head {
-        height: 650px;
+        height: 700px;
     }
 
     #nav-mobile {
@@ -1051,4 +1050,39 @@ video {
     -moz-filter: none;
     -ms-filter: none;
     filter: none !important;
+}
+
+#quote-carousel p {
+    font-size: 1.2em;
+}
+
+.carousel-indicators {
+    position: relative !important;
+    width: 100% !important;
+    left: 30% !important;
+}
+
+.carousel {
+    height: 300px !important;
+}
+
+#countries img {
+    width: 30px;
+    height: auto;
+}
+
+@media (max-width: 945px) {
+    #quote-carousel p {
+        font-size: 0.8em;
+    }
+
+    #quote-carousel .carousel-indicators .active {
+        width: 50px;
+        height: 50px;
+    }
+
+    #quote-carousel .carousel-indicators li {
+        width: 20px;
+        height: 20px;
+    }
 }
